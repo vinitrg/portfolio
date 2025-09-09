@@ -541,18 +541,35 @@ footer p {
         display: none;
     }
     
+    .hero {
+        padding-top: 6rem; /* Add space below fixed navbar */
+    }
+    
     .hero-content {
         grid-template-columns: 1fr;
         text-align: center;
         gap: 2rem;
     }
     
-    .hero-title .name {
-        font-size: 2.5rem;
+    .hero-header {
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
     }
     
-    .hero-title .title {
+    .profile-image img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .hero-title .name {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    
+    .hero-subtitle .title {
         font-size: 1.4rem;
+        text-align: center;
     }
     
     .hero-description {
@@ -562,6 +579,26 @@ footer p {
     .hero-buttons {
         justify-content: center;
         flex-wrap: wrap;
+        gap: 1rem;
+    }
+    
+    .hero-buttons .btn {
+        min-width: 140px;
+    }
+    
+    .hero-visual {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+    
+    .construction-icon {
+        font-size: 2.5rem;
+    }
+    
+    .element {
+        font-size: 0.7rem;
+        padding: 0.3rem 0.6rem;
     }
     
     .projects-grid {
@@ -592,15 +629,44 @@ footer p {
     }
     
     .hero {
-        padding: 0 1rem;
+        padding: 6rem 1rem 2rem 1rem;
+    }
+    
+    .profile-image img {
+        width: 100px;
+        height: 100px;
     }
     
     .hero-title .name {
         font-size: 2rem;
     }
     
-    .hero-title .title {
+    .hero-subtitle .title {
         font-size: 1.2rem;
+    }
+    
+    .hero-description {
+        font-size: 0.9rem;
+    }
+    
+    .hero-visual {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .construction-icon {
+        font-size: 2rem;
+    }
+    
+    .element {
+        font-size: 0.6rem;
+        padding: 0.2rem 0.5rem;
+    }
+    
+    .hero-buttons .btn {
+        min-width: 120px;
+        padding: 0.8rem 1.5rem;
+        font-size: 0.9rem;
     }
     
     .section-title {
